@@ -1,0 +1,152 @@
+html {
+  background-color:ivory;
+  font-size: 16pt;
+  clear: both;
+}
+hr{
+    margin-top: 0px;
+    padding: 0px;
+    height: 5px;
+    border: 0px solid black;
+    border-radius: 20px;
+    background-color: black;
+}
+img{
+    border: 5px solid black;
+}
+.page-content{
+    color: black;
+}
+h1, h2, h3{
+    text-transform: capitalize;
+}
+.highlight{
+    font-weight: bold;
+    text-decoration: underline;
+}
+.heading{
+    text-align: center;
+}
+.heading.heading-main{
+    font-family: "Bebas Neue", sans-serif;
+    margin: 0px;
+    padding: 0px;
+    font-size: 4rem;
+}
+.heading.paragraph{
+    font-family: "Karla", sans-serif;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    padding: 0px;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+
+.introduction.heading-2{
+    font-family: "Bebas Neue", sans-serif;
+    margin-bottom: 0px;
+    padding: 0px;
+    text-align: center;
+    font-size: 3rem;
+}
+.introduction.heading-3{
+    font-size: 1.5rem;
+}
+.introduction.image#linus-torvalds{
+    float: left;
+    max-width: 600px;
+    max-height: 600px;
+    border-radius: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.introduction.paragraph{
+    position: relative;
+    top: 5px;
+    font-family: "Karla", sans-serif;
+    font-size: 1.5rem;
+    max-width: 1500px;
+}
+.introduction.paragraph#linux-kernel{
+    position: relative;
+    font-family: "Karla", sans-serif;
+    font-size: 1.5rem;
+    margin-left: 10px;
+}
+
+.introduction.image#linux-kernel{
+    float: right;
+    max-width: 600px;
+    max-height: 600px;
+    border-radius: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.features{
+    font-family: "Karla", sans-serif;
+}
+.features.heading-3{
+    font-size: 2rem;
+}
+.features.list{
+    font-size: 1.5rem;
+}
+.conclusion{
+    text-align: center;
+}
+.conclusion.heading-2{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 2rem;
+}
+.conclusion.paragraph{
+    font-family: "Karla", sans-serif;
+    font-size: 1.5rem;
+    padding: 10px;
+}
+.footer.paragraph{
+    font-family: "Karla", sans-serif;
+    font-size: 2rem;
+    border: 5px solid black;
+    border-radius: 20px;
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+@media (max-width: 480px) {
+    .heading{
+    text-align: center;
+}
+html {
+  font-size: 12pt;
+}
+.heading.heading-main{
+    font-family: "Bebas Neue", sans-serif;
+    margin: 0px;
+    padding: 0px;
+    font-size: 4rem;
+}
+.introduction.image#linus-torvalds{
+    max-width: 100%;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 20px;
+}
+.introduction.image#linux-kernel{
+    max-width: 100%;
+    margin: 0px;
+    border-radius: 20px;
+}
+.introduction.paragraph{
+    font-family: "Karla", sans-serif;
+    font-size: 1.5rem;
+    max-width: 1500px;
+}
+.introduction.paragraph#linux-kernel{
+    font-family: "Karla", sans-serif;
+    font-size: 1.5rem;
+    margin-left: 10px;
+}
+    
+}
